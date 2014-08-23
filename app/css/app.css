@@ -5205,18 +5205,20 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 body {
-  min-width: 736px;
   border-top: 24px solid #222; }
 
 .main {
   position: absolute;
-  width: 736px;
+  width: 100%;
   height: 248px;
   top: 50%;
-  left: 50%;
-  margin: -124px 0 0 -368px;
+  margin: -124px 0 0 0;
   text-align: center;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
+  @media (max-width: 518px) {
+    .main {
+      height: 357px;
+      margin: -179px 0 0 0; } }
 
 .main__title {
   font-size: 5em; }
