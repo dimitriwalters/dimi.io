@@ -5213,8 +5213,7 @@ body {
   height: 248px;
   top: 50%;
   margin: -124px 0 0 0;
-  text-align: center;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
+  text-align: center; }
   @media (max-width: 518px) {
     .main {
       height: 357px;
