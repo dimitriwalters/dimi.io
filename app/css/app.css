@@ -5210,17 +5210,18 @@ body {
 .main {
   position: absolute;
   width: 100%;
-  height: 248px;
+  height: 270px;
   top: 50%;
-  margin: -124px 0 0 0;
+  margin: -135px 0 0 0;
   text-align: center; }
-  @media (max-width: 518px) {
+  @media (max-width: 672px) {
     .main {
-      height: 357px;
-      margin: -179px 0 0 0; } }
+      height: 404px;
+      margin: -202px 0 0 0; } }
 
 .main__title {
-  font-size: 5em; }
+  font-size: 6em;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
 
 .sm-icons {
   margin: 0; }
