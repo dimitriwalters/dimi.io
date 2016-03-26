@@ -1,0 +1,12 @@
+/node_modules/
+
+/bower_components/
+
+/dev/index.html
+/dev/bundle.js
+/dev/bundlePage.js
+/dev/bundleStaticPage.js
+
+/npm-debug.log
+
+/public/index.html
