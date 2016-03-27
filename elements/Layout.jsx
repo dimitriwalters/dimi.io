@@ -16,11 +16,13 @@ var Layout = React.createClass({
     var style = (process.env.NODE_ENV==='production') ? <link rel="stylesheet" href="/assets/pure.css" /> : '';
     var style2 = (process.env.NODE_ENV==='production') ? <link rel="stylesheet" href="/assets/style.css" /> : '';
 
-    var title = this.getPathMeta('title') + ' - React Static Site';
+    var title = this.getPathMeta('title');
     return (
       <html>
         <head>
           <title>{title}</title>
+          <meta name="description" content="The portfolio of Waterloo computer science undergraduate Dimitri Walters" />
+          <meta name="author" content="Dimitri Walters" />
           {style}
           {style2}
         </head>
