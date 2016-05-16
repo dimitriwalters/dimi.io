@@ -14,6 +14,7 @@ var React = require('react'),
 var Routes = (
   <Route name="home" path="/" handler={Layout}>
     <Route name="about" handler={Page}/>
+    <Route name="resume" handler={Page}/>
     <Route name="blog" handler={Blog}/>
     <Route name="post" path="/blog/:post" handler={Post}/>
     <DefaultRoute handler={Page}/>

@@ -10,6 +10,10 @@ var paths = {
   '/blog': {
     title: 'Blog'
   },
+  '/resume': {
+    title: 'Resume',
+    page: 'resume.html'
+  },
   
   posts: {
     git_problems: {
